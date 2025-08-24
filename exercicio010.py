@@ -1,0 +1,10 @@
+nome = str(input('Insira seu nome:'))
+cpf = int(input('Insira seu CPF:'))
+idade = int(input('Insira a sua idade:'))
+
+print('------------------')
+print('Confirmação de cadastro:')
+print('Nome: ', nome.capitalize()) 
+print('CPF: ', cpf)
+print('Idade: ', idade)
+print('------------------')
